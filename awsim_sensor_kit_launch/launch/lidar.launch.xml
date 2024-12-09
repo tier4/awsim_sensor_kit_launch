@@ -21,6 +21,7 @@
         <arg name="launch_driver" value="$(var launch_driver)"/>
         <arg name="vehicle_mirror_param_file" value="$(var vehicle_mirror_param_file)"/>
         <arg name="container_name" value="pointcloud_container"/>
+        <arg name="udp_only" value="true"/>
       </include>
     </group>
 
@@ -38,6 +39,7 @@
         <arg name="launch_driver" value="$(var launch_driver)"/>
         <arg name="vehicle_mirror_param_file" value="$(var vehicle_mirror_param_file)"/>
         <arg name="container_name" value="pointcloud_container"/>
+        <arg name="udp_only" value="true"/>
       </include>
     </group>
 
@@ -55,6 +57,7 @@
         <arg name="launch_driver" value="$(var launch_driver)"/>
         <arg name="vehicle_mirror_param_file" value="$(var vehicle_mirror_param_file)"/>
         <arg name="container_name" value="pointcloud_container"/>
+        <arg name="udp_only" value="true"/>
       </include>
     </group>
 
