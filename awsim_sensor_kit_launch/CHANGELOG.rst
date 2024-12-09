@@ -2,8 +2,8 @@
 Changelog for package awsim_sensor_kit_launch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.39.0 (2024-12-09)
+-------------------
 * Merge pull request `#24 <https://github.com/tier4/awsim_sensor_kit_launch/issues/24>`_ from SakodaShintaro/fix/restore_timeout_sec
   fix: restore timeout_sec
 * Restore timeout_sec
