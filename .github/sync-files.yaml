@@ -7,6 +7,8 @@
     - source: .github/dependabot.yaml
     - source: .github/pull_request_template.md
     - source: .github/stale.yml
+    - source: .github/workflows/build-and-test.yaml
+    - source: .github/workflows/build-and-test-differential.yaml
     - source: .github/workflows/cancel-previous-workflows.yaml
     - source: .github/workflows/check-build-depends.yaml
     - source: .github/workflows/clang-tidy-pr-comments.yaml
@@ -30,8 +32,3 @@
     - source: CONTRIBUTING.md
     - source: DISCLAIMER.md
     - source: LICENSE
-
-- repository: autowarefoundation/autoware_common
-  files:
-    - source: .github/workflows/build-and-test.yaml
-    - source: .github/workflows/build-and-test-differential.yaml
