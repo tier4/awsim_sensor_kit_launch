@@ -10,7 +10,6 @@
   <buildtool_depend>ament_cmake_auto</buildtool_depend>
 
   <exec_depend>velodyne_driver</exec_depend>
-  <exec_depend>velodyne_monitor</exec_depend>
   <exec_depend>velodyne_pointcloud</exec_depend>
 
   <test_depend>ament_lint_auto</test_depend>
