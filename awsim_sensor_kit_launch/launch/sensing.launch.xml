@@ -23,7 +23,7 @@
     <!-- GNSS Drives in not needed because the AWSIM already publishes both gnss pose and pose with covariance topics -->
 
     <!-- Vehicle Velocity Converter  -->
-    <include file="$(find-pkg-share vehicle_velocity_converter)/launch/vehicle_velocity_converter.launch.xml">
+    <include file="$(find-pkg-share autoware_vehicle_velocity_converter)/launch/vehicle_velocity_converter.launch.xml">
       <arg name="input_vehicle_velocity_topic" value="/vehicle/status/velocity_status"/>
       <arg name="output_twist_with_covariance" value="/sensing/vehicle_velocity_converter/twist_with_covariance"/>
     </include>
