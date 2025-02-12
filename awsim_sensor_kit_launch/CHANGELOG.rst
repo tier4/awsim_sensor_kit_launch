@@ -2,6 +2,27 @@
 Changelog for package awsim_sensor_kit_launch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.41.0 (2025-02-12)
+-------------------
+* Merge remote-tracking branch 'origin/main' into humble
+* Merge pull request `#26 <https://github.com/tier4/awsim_sensor_kit_launch/issues/26>`_ from SakodaShintaro/fix/add_udp_only
+  fix: add `udp_only`
+* Merge pull request `#25 <https://github.com/tier4/awsim_sensor_kit_launch/issues/25>`_ from vividf/feature/tier4_awsim_load_concatenate
+  feat(awsim_sensor_kit_launch): awsim load concatenate node parameters
+* chore: increase window size
+* chore: add mathcing strategy
+* chore: add use_naive_approach
+* fix(awsim_sensor_kit_launch): add autoware prefix to vehicle_velocity_converter (`#27 <https://github.com/tier4/awsim_sensor_kit_launch/issues/27>`_)
+  * add autoware prefix
+  * add dependency autoware_vehicle_velocity_converter
+  ---------
+* chore: update params
+* Added `udp_only`
+* chore: fix timeout sec
+* chore: add space
+* feat: awsim load comcatenate parameter
+* Contributors: Masaki Baba, Ryohsuke Mitsudome, SakodaShintaro, Shintaro Sakoda, vividf
+
 0.39.0 (2024-12-09)
 -------------------
 * Merge pull request `#24 <https://github.com/tier4/awsim_sensor_kit_launch/issues/24>`_ from SakodaShintaro/fix/restore_timeout_sec
