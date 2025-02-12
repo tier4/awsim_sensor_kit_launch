@@ -2,8 +2,8 @@
 Changelog for package awsim_sensor_kit_launch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.41.0 (2025-02-12)
+-------------------
 * Merge remote-tracking branch 'origin/main' into humble
 * Merge pull request `#26 <https://github.com/tier4/awsim_sensor_kit_launch/issues/26>`_ from SakodaShintaro/fix/add_udp_only
   fix: add `udp_only`
