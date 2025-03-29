@@ -2,6 +2,11 @@
 Changelog for package awsim_sensor_kit_launch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.42.0 (2025-03-28)
+-------------------
+* refactor(awsim_sensor_kit_launch): remove reference to tamagawa_imu_driver (`#32 <https://github.com/tier4/awsim_sensor_kit_launch/issues/32>`_)
+* Contributors: Esteve Fernandez, M. Fatih Cırıt
+
 0.41.0 (2025-02-12)
 -------------------
 * Merge remote-tracking branch 'origin/main' into humble
